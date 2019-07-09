@@ -203,6 +203,22 @@ header {
     margin-left:2rem;
     border: 1px solid blueviolet;
 }
+
+footer {
+    width: 99%;
+    height: 30rem;
+}
+
+.main-footer {
+    height: 20rem;
+    width: 100%;
+    background: #131313;
+}
+.sub-footer {
+    height: 10rem;
+    width: 100%;
+    background: black;
+}
 /*END nav-bar-active styling*/
 
 /* mobile version nav bar  */
