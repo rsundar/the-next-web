@@ -44,27 +44,72 @@ nav {
 .is-active {
     color: #ffffff;
 }
+
+.site-nav {
+    display: flex;
+    padding-left:0;
+    list-style: none;
+    margin-top: 1.25rem;
+}
+
+.site-nav > li {
+    font-size: 1.4rem;
+    color: #868585;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.site-nav > li:hover {
+    color: #313131;
+}
+
+.site-nav > li + li {
+    margin-left: 2rem;
+    margin-top: 0;
+}
+
+/*.right-nav::before {
+    display: hidden;
+    content: " ";
+    padding-right: 1rem;
+    height: 100%;
+    border-right: 1px solid #e2e2e2;
+}*/
+
+.site-nav > .right-nav {
+    margin-left: auto;
+    padding: 0 1rem;
+    transform: scaleX(-1);
+    border-right: 1px solid #e2e2e2;
+}
+
+.show-less-than-768 {
+    display: none;
+}
+
 main {
     display: flex;
     flex-direction: column;
 }
+
 .logo {
-    height: 5rem;
-    width: 10%;
-    visibility: hidden;
+    display:none;
 }
+
 .li-others {
     display: flex;
     flex-direction: row;
 }
+
 header {
-    width: 99%;
-    height: 5rem;
-    background: green;
+    width: 99.5%;
+    height: 1.8rem;
+    background: #ffffff;
 }
 .container {
     display: flex;
     justify-content: flex-start;
+    margin-top: 1rem;
 }
 .main-section {
     background: black;
@@ -166,8 +211,45 @@ header {
     .hide-below-768 {
         visibility: hidden;
     }
+    
+    .fas {
+        margin-top: 1rem;
+        margin-right: 1rem;
+        font-size: 2rem;
+    }
+
+    header {
+        margin-top:-2.8rem;
+        height: 4rem;
+        width: 99%;
+        position: fixed;
+        z-index: 2;
+        will-change: height;
+    }
+
+    .site-nav {
+        margin-top: -1px;
+    }
+
     .logo {
-        visibility: visible;
+        display: block;
+        will-change: height;
+        width:106px;
+        padding:1rem 1rem;
+        background-color: #f42;
+        background-image: linear-gradient(to bottom right,#c09,#f42);
+    }
+
+    .right-nav {
+        margin-left: auto;
+        padding: 0 1rem;
+        transform: scaleX(-1);
+        margin-top: 2rem;
+    }
+
+    .show-less-than-768 {
+        display: block;
+        margin-top: 2rem;
     }
 
     
