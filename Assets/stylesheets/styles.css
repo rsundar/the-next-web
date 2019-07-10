@@ -196,6 +196,65 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.img-container-1 {
+    height: 25rem;
+    width: 80%;
+    margin-left: 3.7rem;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Push-it-Cropped-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-container-2 {
+    height: 25rem;
+    width: 80%;
+    margin-left: 3.7rem;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/marriott-gdpr-fines-hed-368x276.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-container-4 {
+    height: 25rem;
+    width: 80%;
+    margin-left: 3.7rem;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Add-a-little-bit-of-body-text-368x276.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-container-3 {
+    height: 25rem;
+    width: 80%;
+    margin-left: 3.7rem;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/carltondance-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-container-5 {
+    height: 25rem;
+    width: 80%;
+    margin-left: 3.7rem;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/R-next-date-1-368x276.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-container-6 {
+    height: 25rem;
+    width: 80%;
+    margin-left: 3.7rem;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-container-7 {
+    height: 25rem;
+    width: 80%;
+    margin-left: 3.7rem;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/cuphead-368x276.png");
+}
+
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .latest-deals {
   position: relative;
   margin-left: 2rem;
