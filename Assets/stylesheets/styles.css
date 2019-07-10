@@ -118,7 +118,7 @@ header {
 }
 
 .main-section {
-    background: linear-gradient(180deg,rgba(235, 62, 9, 0.616),rgb(0, 0, 0)), url("../images/Untitled-design-62-796x417.jpg");
+    background: linear-gradient(150deg,rgba(255, 68, 34, 0.616),rgb(0, 0, 0)), url("../images/Untitled-design-62-796x417.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40rem;
@@ -157,18 +157,78 @@ header {
     width: 100%;
 }
 
+.h1-styling {
+    font-size: 3.5vw;
+    color: whitesmoke; 
+    width: 100%;
+    font-weight: bolder; 
+    margin-top:-1vw;
+    margin-bottom:0;
+}
+
+.h2-styling {
+    font-size: 1.7vw;
+    color: whitesmoke; 
+    width: 100%;
+    font-weight: bolder; 
+    margin-top:-1vw;
+    margin-bottom:0;
+}
+
+.p1-styling {
+    font-size:1vw;
+    color:white;
+    letter-spacing: 0.1vw;
+    font-weight: 400
+}
+
+.p2-styling {
+    font-size:1vw;
+    margin-top:0.5vw;
+    color:grey;
+}
+
 .latest-new-container {
     display: flex;
     flex-wrap: wrap;
+    align-content: space-between;
     width: 100%;
-    height: 80rem;
+    margin-left: 2rem;
+    height: 45rem;
 }
 .sec-style {
-    height: 40rem;
-    width: 20%;
-    border: 1px solid black;
-    margin-left: 5rem;
-    margin-bottom: 5rem;
+    height: 20rem;
+    width: 22.5%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sec-img {
+    width:100%;
+    height:70%;
+}
+
+.h4-style {
+    font-size: 1.1vw;
+    font-weight:bolder;
+    margin-top:0;
+    margin-bottom: 0;
+    width: 100%;
+}
+.publisher-info {
+    list-style: none;
+    padding:0;
+    margin-top: 0.5vw;
+}
+
+.publisher-info > li {
+    display: inline-block;
+    font-size: 1vw;
+    color: grey;
+}
+
+.publisher-info >li:last-child {
+    padding-left: 0.85vw;
 }
 .float {
     margin-top: 3rem;
@@ -300,6 +360,10 @@ footer {
         font-size: 2rem;
     }
 
+    #modifier {
+        font-size: 1vw;
+    }
+
     header {
         margin-top:-2.8rem;
         height: 4rem;
@@ -360,6 +424,22 @@ footer {
         position: relative;
         left: 2%;
         top: 20%;
+    }
+
+    #modifier1 {
+        top: 40%;
+    }
+
+    #modifier2 {
+        top: 55%;
+    }
+
+    .h1-styling, .h2-styling {
+        font-size: 4vw;
+    }
+
+    .p1-styling,.p2-styling {
+        font-size: 1.5vw;
     }
 
     .aside-section {
