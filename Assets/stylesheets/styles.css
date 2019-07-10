@@ -213,15 +213,27 @@ header {
     background: url("https://cdnp0.stackassets.com/ac15a44d6440bd43f037f050fb4dd4e1a71aef57/store/fa4a4987893702f090306bf4b3224933113c1eb651efc17fd25797db36c5/sale_20236_primary_image.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    border: 2px solid blue;
     height: 21.2rem; 
 }
 .story-dealDiscount {
-  background-repeat: no-repeat;
-  background-size: contain;
-  color: #000;
-  overflow: hidden;
-  z-index: 10;
+    position: relative;
+    margin-left: 20rem;
+    color: black;
+    background: yellow;
+    width: 30%;
+    height: 5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.dev-ops > a {
+    color: black;
+    font-size: 1.8rem;
+}
+.dev-ops > a:hover {
+    color: red;
+    text-decoration: underline;
 }
 .story-title {
     position: relative;
@@ -229,8 +241,11 @@ header {
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
-.story-title > a {
-
+.story-dealPrice-old {
+    font-size: 1.2rem;
+}
+.story-dealPrice-new {
+    font-size: 1.5rem;
 }
 .story-dealPrice {
     position: relative;
@@ -265,12 +280,11 @@ header {
     height: 40%;
     width: 22.5%;
     margin-left: 2rem;
-    border: 1px solid blueviolet;
 }
 
 footer {
     width: 99%;
-    height: 30rem;
+    height: auto;
 }
 
 .main-footer {
