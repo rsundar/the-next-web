@@ -118,7 +118,7 @@ header {
 }
 
 .main-section {
-    background: linear-gradient(to bottom right,rgba(245, 75, 23, 0.575),rgba(20, 4, 1, 0.73)), url("../images/Untitled-design-62-796x417.jpg");
+    background: linear-gradient(180deg,rgba(235, 62, 9, 0.616),rgb(0, 0, 0)), url("../images/Untitled-design-62-796x417.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40rem;
@@ -126,13 +126,20 @@ header {
     width: 65%;
 }
 
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+
 .aside-section {
     display: flex;
     flex-direction: column;
     background: pink;
     height: 40rem;
-    margin: 0.5rem 0;
-    width: 35%;
+    margin: 0.5rem 0rem;
+    width: 32.5%;
 }
 .first-sec {
     background: white;
@@ -281,5 +288,8 @@ footer {
         border-left: 1px solid #e2e2e2;
     }
 
+    .top-heading {
+        display: none;
+    }
     
 }
