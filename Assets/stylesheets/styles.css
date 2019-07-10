@@ -285,19 +285,18 @@ header {
 }
 .story-dealPrice-old {
     font-size: 1.2rem;
+    text-decoration: line-through;
+    margin-right: .4rem;
 }
 .story-dealPrice-new {
     font-size: 1.5rem;
 }
 .story-dealPrice {
     position: relative;
-    margin-bottom: 330rem;
+    margin-bottom: 5rem;
     color: #aaa;
 }
-.story-dealPrice-old {
-    text-decoration: line-through;
-    margin-right: .4rem;
-}
+
 .container-grid > section {
     height: 20rem;
     width: 100%;
@@ -326,7 +325,8 @@ header {
 
 footer {
     width: 99%;
-    height: auto;
+    height: 30rem;
+    margin-bottom: 0;
 }
 
 .main-footer {
