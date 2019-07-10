@@ -132,22 +132,27 @@ header {
     margin: 1rem;
 }
 
-
 .aside-section {
     display: flex;
     flex-direction: column;
-    background: pink;
     height: 40rem;
     margin: 0.5rem 0rem;
     width: 32.5%;
 }
+
 .first-sec {
-    background: white;
+    background-image: url("../images/gearbox1200-796x417.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 40rem;
     width: 100%;
+    margin-bottom: 1rem;
 }
+
 .second-sec {
-    background: blue;
+    background-image: url("../images/valveindex-796x397.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 40rem;
     width: 100%;
 }
@@ -322,19 +327,21 @@ footer {
     .container {
         display:flex;
         flex-direction: column;
-        margin: 0.5rem 0.5rem;
+        width:98%;
+        margin-top: 3rem;
+        margin-right: 1rem;
     }
 
     .main-section {
         background: url("../images/Untitled-design-62-796x417.jpg");
         background-repeat: no-repeat;
         height: 20rem;
-        margin: 0 1rem;
+        margin: 0.5rem 0.95rem;
         width: 100%;    
     }
     
     .aside-section {
         width: 100%;
-        margin: 0.5rem 1 rem;
+        margin: 0.5rem 1rem;
     }
 }
