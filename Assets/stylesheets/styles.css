@@ -215,6 +215,24 @@ header {
     background-size: contain;
     height: 21.2rem; 
 }
+.back-image1 {
+    background: url("https://cdnp1.stackassets.com/369b03914af09162affda73a030d8efb3f70c4dd/store/5c9c26c518fdbb13df30ea493401a86d440ef17398024a114fba3b23fdb0/sale_20095_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 21.2rem;
+}
+.back-image2 {
+    background: url("https://cdnp2.stackassets.com/3f1220693be55c94638de47e3764b0b52d4f0ef6/store/69d34c4431acc15455767fc5a5bd1f2555c3d3530baf7c59adbd1634ff8d/sale_20232_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 21.2rem;
+}
+.back-image3 {
+    background: url("https://cdnp0.stackassets.com/26929c952eea16d3ff0b6f8cdf0e4c045872e50b/store/45dff08da7f1bd5bbbff3deff55d4473e4f42d21cd596b615a90b22d4a8f/sale_20233_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 21.2rem;
+}
 .story-dealDiscount {
     position: relative;
     margin-left: 20rem;
