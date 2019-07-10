@@ -118,7 +118,7 @@ header {
 }
 
 .main-section {
-    background: linear-gradient(180deg,rgba(235, 62, 9, 0.616),rgb(0, 0, 0)), url("../images/Untitled-design-62-796x417.jpg");
+    background: linear-gradient(to bottom right,rgba(245, 75, 23, 0.575),rgba(20, 4, 1, 0.73)), url("../images/Untitled-design-62-796x417.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40rem;
@@ -126,33 +126,21 @@ header {
     width: 65%;
 }
 
-.top-heading {
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem;
-}
-
 .aside-section {
     display: flex;
     flex-direction: column;
+    background: pink;
     height: 40rem;
-    margin: 0.5rem 0rem;
-    width: 32.5%;
+    margin: 0.5rem 0;
+    width: 35%;
 }
-
 .first-sec {
-    background-image: url("../images/gearbox1200-796x417.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: white;
     height: 40rem;
     width: 100%;
-    margin-bottom: 1rem;
 }
-
 .second-sec {
-    background-image: url("../images/valveindex-796x397.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: blue;
     height: 40rem;
     width: 100%;
 }
@@ -185,7 +173,6 @@ header {
 .latest-fund-container {
     height: 10rem;
     width: 99%;
-    border: 1px solid red;
     margin-top: 8rem;
     display: flex;
     justify-content: space-between;
@@ -199,6 +186,28 @@ header {
     height: 80rem;
     margin-top: 5rem;
     width: 99%;
+}
+.latest-deals {
+  position: relative;
+  margin-left: 3rem;
+  color: red;
+  font-size: 2.5rem;
+}
+.latest-deals:hover {
+  color: black;
+  cursor: pointer;
+}
+.see-all-deals {
+  position: relative;
+  margin-right: 4rem;
+  margin-top: 3rem;
+  font-weight: bold;
+  color: red;
+  font-size: 1.6rem;
+}
+.see-all-deals:hover {
+  color: black;
+  cursor: pointer;
 }
 .container-grid > section {
     height: 20rem;
@@ -380,28 +389,5 @@ footer {
         border-left: 1px solid #e2e2e2;
     }
 
-    .top-heading {
-        display: none;
-    }
 
-    .container {
-        display:flex;
-        flex-direction: column;
-        width:98%;
-        margin-top: 3rem;
-        margin-right: 1rem;
-    }
-
-    .main-section {
-        background: url("../images/Untitled-design-62-796x417.jpg");
-        background-repeat: no-repeat;
-        height: 20rem;
-        margin: 0.5rem 0.95rem;
-        width: 100%;
-    }
-
-    .aside-section {
-        width: 100%;
-        margin: 0.5rem 1rem;
-    }
 }
