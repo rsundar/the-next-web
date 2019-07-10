@@ -237,6 +237,33 @@ footer {
     width: 100%;
     background: black;
 }
+.sub-wrapper {
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+}
+.logo-span {
+    position: relative;
+    top: 2.7rem;
+}
+.sub-wrap-logo {
+    height: 6rem;
+    width: 3rem;
+}
+.stackpath-logo {
+    position: relative;
+    top: 2.7rem;
+    height: 6rem;
+    width: 6rem;
+}
+.fa-heart {
+    color: red;
+}
+.text-inlarge {
+    font-size: 1.5rem;
+}
 /*END nav-bar-active styling*/
 
 /* mobile version nav bar  */
