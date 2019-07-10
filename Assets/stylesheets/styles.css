@@ -187,6 +187,15 @@ header {
     margin-top: 5rem;
     width: 99%;
 }
+
+.img-container- {
+    height: 25rem;
+    width: 80%;
+    margin-left: 3.7rem;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/athletes-bitcoin-cryptocurrency-salary-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .latest-deals {
   position: relative;
   margin-left: 2rem;
@@ -298,7 +307,9 @@ header {
     margin-bottom: 5rem;
     color: #aaa;
 }
-
+.hidden {
+    visibility: hidden;
+}
 .container-grid > section {
     height: 60rem;
     width: 100%;
