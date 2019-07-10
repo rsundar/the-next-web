@@ -141,7 +141,7 @@ header {
 }
 
 .first-sec {
-    background-image: url("../images/gearbox1200-796x417.png");
+    background-image: linear-gradient(180deg,rgba(15, 15, 15, 0.63),rgba(0,0,0,0.95)),url("../images/gearbox1200-796x417.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 40rem;
@@ -150,7 +150,7 @@ header {
 }
 
 .second-sec {
-    background-image: url("../images/valveindex-796x397.jpg");
+    background-image: linear-gradient(180deg,rgba(15, 15, 15, 0.63),rgba(0,0,0,0.95)),url("../images/valveindex-796x397.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 40rem;
@@ -207,10 +207,21 @@ header {
     border: 1px solid green;
     
 }
+
 .cover-img {
     height: 40rem;
-    width: 99%;
-    
+    width: 99%;    
+}
+
+.headline {
+    position: relative;
+    left: 2%;
+    top: 27.5%;
+    width: 100%;
+}
+
+.aside-headline {
+    top: 30%;
 }
 
 .latest-deals-container {
@@ -334,13 +345,19 @@ footer {
     }
 
     .main-section {
-        background: url("../images/Untitled-design-62-796x417.jpg");
+        background: linear-gradient(180deg,rgba(15, 15, 15, 0.63),rgba(0,0,0,0.95)),url("../images/Untitled-design-62-796x417.jpg");
         background-repeat: no-repeat;
         height: 20rem;
         margin: 0.5rem 0.95rem;
         width: 100%;    
     }
     
+    .headline {
+        position: relative;
+        left: 2%;
+        top: 20%;
+    }
+
     .aside-section {
         width: 100%;
         margin: 0.5rem 1rem;
