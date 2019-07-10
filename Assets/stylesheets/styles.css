@@ -318,5 +318,23 @@ footer {
     .top-heading {
         display: none;
     }
+
+    .container {
+        display:flex;
+        flex-direction: column;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .main-section {
+        background: url("../images/Untitled-design-62-796x417.jpg");
+        background-repeat: no-repeat;
+        height: 20rem;
+        margin: 0 1rem;
+        width: 100%;    
+    }
     
+    .aside-section {
+        width: 100%;
+        margin: 0.5rem 1 rem;
+    }
 }
