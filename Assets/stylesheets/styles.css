@@ -9,8 +9,8 @@ a {
     cursor: pointer;
 }
 
-body {
-    width: 100%;
+body { 
+    width: 100%; 
     height: 100%;
     overflow-x: hidden;
 }
@@ -18,7 +18,7 @@ body {
 nav {
     width:99%;
     height: 2rem;
-
+    
 }
 /*END base styling*/
 
@@ -118,7 +118,7 @@ header {
 }
 
 .main-section {
-    background: linear-gradient(to bottom right,rgba(245, 75, 23, 0.575),rgba(20, 4, 1, 0.73)), url("../images/Untitled-design-62-796x417.jpg");
+    background: linear-gradient(180deg,rgba(235, 62, 9, 0.616),rgb(0, 0, 0)), url("../images/Untitled-design-62-796x417.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40rem;
@@ -126,21 +126,33 @@ header {
     width: 65%;
 }
 
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
 .aside-section {
     display: flex;
     flex-direction: column;
-    background: pink;
     height: 40rem;
-    margin: 0.5rem 0;
-    width: 35%;
+    margin: 0.5rem 0rem;
+    width: 32.5%;
 }
+
 .first-sec {
-    background: white;
+    background-image: url("../images/gearbox1200-796x417.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 40rem;
     width: 100%;
+    margin-bottom: 1rem;
 }
+
 .second-sec {
-    background: blue;
+    background-image: url("../images/valveindex-796x397.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 40rem;
     width: 100%;
 }
@@ -169,11 +181,12 @@ header {
 
 #modified-margin {
     height: 40rem;
-    margin-top: 2rem;
+    margin-top: 2rem; 
 }
 .latest-fund-container {
     height: 10rem;
     width: 99%;
+    border: 1px solid red;
     margin-top: 8rem;
     display: flex;
     justify-content: space-between;
@@ -188,38 +201,16 @@ header {
     margin-top: 5rem;
     width: 99%;
 }
-.latest-deals {
-  position: relative;
-  margin-left: 3rem;
-  color: red;
-  font-size: 2.5rem;
-}
-.latest-deals:hover {
-  color: black;
-  cursor: pointer;
-}
-.see-all-deals {
-  position: relative;
-  margin-right: 4rem;
-  margin-top: 3rem;
-  font-weight: bold;
-  color: red;
-  font-size: 1.6rem;
-}
-.see-all-deals:hover {
-  color: black;
-  cursor: pointer;
-}
 .container-grid > section {
     height: 20rem;
     width: 100%;
     border: 1px solid green;
-
+    
 }
 .cover-img {
     height: 40rem;
     width: 99%;
-
+    
 }
 
 .latest-deals-container {
@@ -279,66 +270,6 @@ footer {
 .text-inlarge {
     font-size: 1.5rem;
 }
-.upper-main {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 12rem;
-    width: 100%;
-}
-.upper-main > .footer-icons {
-    display: flex;
-    justify-content: space-between;
-    height: 5rem;
-    width: 46rem;
-}
-.footer-icons > li {
-    list-style: none;
-}
-.footer-icons > li > a > i {
-    font-size: 3rem;
-    color: #313131;
-}
-.lower-main {
-    display: flex;
-    justify-content: center;
-    color: white;
-    align-content: center;
-    text-align: center;
-    height: 8rem;
-    width: 100%;
-}
-.lower-main > span > a > li {
-    display: inline-block;
-    color: 	#F0FFFF;
-}
-
-.lower-main > span > a > li:hover {
-    color: white;
-}
-
-.icon-container {
-    height: 5rem;
-    width: 14.2%;
-    background: #313131;
-}
-.l-main-wrap {
-    height: 6rem;
-    width: 56rem;
-}
-.inside-l-main-wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-.inside-l-main-wrap > span > a {
-    color: #FFEBCD;
-    font-size: 1.5rem;
-}
-.inside-l-main-wrap > span > a:hover {
-    color: white;
-}
-
 /*END nav-bar-active styling*/
 
 /* mobile version nav bar  */
@@ -347,7 +278,7 @@ footer {
     .hide-below-768 {
         visibility: hidden;
     }
-
+    
     .fas {
         margin-top: 1rem;
         margin-right: 1rem;
@@ -390,5 +321,28 @@ footer {
         border-left: 1px solid #e2e2e2;
     }
 
+    .top-heading {
+        display: none;
+    }
 
+    .container {
+        display:flex;
+        flex-direction: column;
+        width:98%;
+        margin-top: 3rem;
+        margin-right: 1rem;
+    }
+
+    .main-section {
+        background: url("../images/Untitled-design-62-796x417.jpg");
+        background-repeat: no-repeat;
+        height: 20rem;
+        margin: 0.5rem 0.95rem;
+        width: 100%;    
+    }
+    
+    .aside-section {
+        width: 100%;
+        margin: 0.5rem 1rem;
+    }
 }
