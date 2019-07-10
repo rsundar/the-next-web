@@ -303,7 +303,16 @@ header {
     height: 60rem;
     width: 100%;
     border: 1px solid green;
-
+}
+.container-grid > section > h2 {
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    color: red;
+    font-weight: bolder;
+}
+.container-grid > section > h2:hover {
+    color: black;
+    cursor: pointer;
 }
 .cover-img {
     height: 40rem;
