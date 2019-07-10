@@ -351,7 +351,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .hide-below-768 {
-        visibility: hidden;
+        display:none;
     }
     
     .fas {
@@ -365,12 +365,12 @@ footer {
     }
 
     header {
-        margin-top:-2.8rem;
+        margin-top:-0.8rem;
         height: 4rem;
         width: 99%;
         position: fixed;
         z-index: 2;
-        will-change: height;
+        will-change: width;
     }
 
     .site-nav {
@@ -379,11 +379,17 @@ footer {
 
     .logo {
         display: block;
-        will-change: height;
-        width:106px;
+        height: 20px;
+        width:90px;
         padding:1rem 1rem;
         background-color: #f42;
         background-image: linear-gradient(to bottom right,#c09,#f42);
+    }
+
+    .logo-below-768 {
+        width: 80px;
+        height: 15px;
+        margin-left: 5px;
     }
 
     .right-nav {
