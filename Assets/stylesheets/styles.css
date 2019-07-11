@@ -187,74 +187,72 @@ header {
     margin-top: 5rem;
     width: 99%;
 }
-
-.img-container- {
-    height: 25rem;
-    width: 80%;
-    margin-left: 3.7rem;
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/athletes-bitcoin-cryptocurrency-salary-368x276.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img-container-1 {
-    height: 25rem;
-    width: 80%;
-    margin-left: 3.7rem;
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Push-it-Cropped-368x276.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img-container-2 {
-    height: 25rem;
-    width: 80%;
-    margin-left: 3.7rem;
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/marriott-gdpr-fines-hed-368x276.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img-container-4 {
-    height: 25rem;
-    width: 80%;
-    margin-left: 3.7rem;
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Add-a-little-bit-of-body-text-368x276.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img-container-3 {
-    height: 25rem;
-    width: 80%;
-    margin-left: 3.7rem;
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/carltondance-368x276.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img-container-5 {
-    height: 25rem;
-    width: 80%;
-    margin-left: 3.7rem;
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/R-next-date-1-368x276.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.img-container-6 {
-    height: 25rem;
-    width: 80%;
-    margin-left: 3.7rem;
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-368x276.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+.img-container-,
+.img-container-1,
+.img-container-2,
+.img-container-3,
+.img-container-4,
+.img-container-5,
+.img-container-6,
 .img-container-7 {
     height: 25rem;
     width: 80%;
     margin-left: 3.7rem;
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/cuphead-368x276.png");
-}
-
-
     background-repeat: no-repeat;
     background-size: contain;
+} 
+.img-container- {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/athletes-bitcoin-cryptocurrency-salary-368x276.jpg");
 }
+.img-container-1 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Push-it-Cropped-368x276.jpg");
+}
+.img-container-2 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/marriott-gdpr-fines-hed-368x276.png");
+}
+.img-container-4 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Add-a-little-bit-of-body-text-368x276.png");
+}
+.img-container-3 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/carltondance-368x276.jpg");
+}
+.img-container-5 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/R-next-date-1-368x276.png");
+}
+.img-container-6 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-368x276.jpg");
+}
+.img-container-7 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/cuphead-368x276.png");
+}
+.most-popular {
+    margin-top: 12rem;
+    font-size: 1.6rem;
+}
+.mix {
+    position: absolute;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #F0FFFF;
+}
+.athlete {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-top: 1em;
+    font-size: 1.8rem;
+}
+.athlete > a {
+    color: #F0FFFF;
+    font-weight: bolder;
+    
+}
+.desc-container {
+    width: 100%;
+    height: 10rem;
+    color: #F0FFFF;
+   
+}
+
 .latest-deals {
   position: relative;
   margin-left: 2rem;
@@ -277,53 +275,86 @@ header {
   color: black;
   cursor: pointer;
 }
-.back-image {
-    background: url("https://cdnp0.stackassets.com/ac15a44d6440bd43f037f050fb4dd4e1a71aef57/store/fa4a4987893702f090306bf4b3224933113c1eb651efc17fd25797db36c5/sale_20236_primary_image.jpg");
+.section-latest-title > a {
+    color: red;
+}
+header {
+    display: block;
+}
+.section-latest-header {
+    -webkit-flex: 1;
+    flex: 1;
+    padding: 10px 3rem 0;
+}
+.section-latest-title:hover {
+    text-decoration-line: underline;
+}
+.section-latest-title {  
+    max-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.section-a-background {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/tinder-hearts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 96px;
+    width: 96px;
+}
+h4 {
+    color: #f42;
+    font-weight: 700;
+    line-height: 1.25;
+    font-size: 14px;
+}
+h5 {
+    font-family: Shentox,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    line-height: 1.5;
+}
+.section-latest-section {
+    color: #f42;
+    font-size: 13px;
+}
+.back-image,
+.back-image1,
+.back-image2,
+.back-image3,
+.back-image4,
+.back-image5,
+.back-image6,
+.back-image7 {
     background-repeat: no-repeat;
     background-size: contain;
-    height: 21.2rem; 
+    height: 21.2rem;
+}
+.back-image {
+    background: url("https://cdnp0.stackassets.com/ac15a44d6440bd43f037f050fb4dd4e1a71aef57/store/fa4a4987893702f090306bf4b3224933113c1eb651efc17fd25797db36c5/sale_20236_primary_image.jpg");
 }
 .back-image1 {
     background: url("https://cdnp1.stackassets.com/369b03914af09162affda73a030d8efb3f70c4dd/store/5c9c26c518fdbb13df30ea493401a86d440ef17398024a114fba3b23fdb0/sale_20095_primary_image.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 21.2rem;
 }
 .back-image2 {
     background: url("https://cdnp2.stackassets.com/3f1220693be55c94638de47e3764b0b52d4f0ef6/store/69d34c4431acc15455767fc5a5bd1f2555c3d3530baf7c59adbd1634ff8d/sale_20232_primary_image.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 21.2rem;
 }
 .back-image3 {
     background: url("https://cdnp0.stackassets.com/26929c952eea16d3ff0b6f8cdf0e4c045872e50b/store/45dff08da7f1bd5bbbff3deff55d4473e4f42d21cd596b615a90b22d4a8f/sale_20233_primary_image.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 21.2rem;
 }
 .back-image4 {
     background: url("https://cdnp0.stackassets.com/b11c1ceea51d735586259e5ad30e9da08c50a3ad/store/066c956b57a2603c49ebdf774b022c1361486789eb9cc2a04559e8804830/sale_19825_primary_image.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 21.2rem;
 }
 .back-image5 {
     background: url("https://cdnp2.stackassets.com/2de045f5c08675c61ee700230f0604fdd2e3e557/store/385003e89ed9c8e0938a35490994921cbd3a1c1ecde92e3f84376549f152/sale_18127_primary_image.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 21.2rem;
 }
 .back-image6 {
     background: url("https://cdnp1.stackassets.com/b308bc79c3ab77999bf45188fae0a4f5b2e259a6/store/0eeb94683528836f896f7d52a53ba0f1f3e6ab58a9df554e357779a8c649/sale_15388_primary_image.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 21.2rem;
 }
 .back-image7 {
     background: url("https://cdnp2.stackassets.com/1b8fc172d595a700069e9ff5453af5ab1cb1080a/store/13a29aad552ffd2b87ef6e2cdf62c35d41ed4baaf7949feeb2f959958650/sale_20046_primary_image.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 21.2rem;
 }
 .story-dealDiscount {
     position: relative;
