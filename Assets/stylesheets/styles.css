@@ -238,10 +238,42 @@ header {
     top: 15rem;
     font-size: 1.3rem;
 }
-.aside-img-background {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/tinder-hearts.jpg");
+.aside-img-background,
+.aside-img-background1, 
+.aside-img-background2,
+.aside-img-background3,
+.aside-img-background4,
+.aside-img-background5,
+.aside-img-background6,
+.aside-img-background7 {
     background-repeat: no-repeat;
     background-size: cover;
+}   
+
+.aside-img-background {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/tinder-hearts.jpg");
+    
+}
+.aside-img-background1 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/samsonmic_featured.jpg");
+} 
+.aside-img-background2 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Zoom-trash-hed-v2.jpg");
+}
+.aside-img-background3 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/one.jpg");
+}
+.aside-img-background4 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/annie-spratt-QckxruozjRg-unsplash.jpg");
+}
+.aside-img-background5 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/R-next-date-1.png");
+}
+.aside-img-background6 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/firefox-stop-cryptojacking-bitcoin-mining-cryptocurrency-monero-blockchain-mozilla.jpg");
+}
+.aside-img-background7 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/bitcoin-thief-796x527.jpg");
 }
 .tinder {
     position: relative;
@@ -257,6 +289,7 @@ header {
     color: black;
     text-decoration: underline;
 }
+
 .img-container- {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/athletes-bitcoin-cryptocurrency-salary-368x276.jpg");
 }
