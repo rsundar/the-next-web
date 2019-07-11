@@ -230,13 +230,20 @@ header {
 .publisher-info >li:last-child {
     padding-left: 0.85vw;
 }
+
 .float {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     list-style: none;
 }
+
 .float > li {
     display: inline-block;
+    font-size: 1.5rem;
     padding-left: 2rem;
+}
+
+.float > li > a {
+    color: #f42;
 }
 
 #modified-margin {
@@ -245,12 +252,17 @@ header {
 }
 
 .latest-fund-container {
-    height: 10rem;
     width: 99%;
-    border: 1px solid red;
     margin-top: 8rem;
     display: flex;
     justify-content: space-between;
+}
+
+.latest-fund-container > h1 {
+    margin-left: 3.5rem;
+    margin-top: 0;
+    font-size: 2.5rem;
+    color: #f42;
 }
 
 .container-grid {
@@ -499,8 +511,16 @@ footer {
         align-items: flex-start;
     }
 
+    .latest-fund-container > h1 {
+        margin-left: 1.5rem;
+        margin-top: 0;
+        font-size: 2.5rem;
+        color: #f42;
+    }
+
     .float {
-        margin: 0;
+        margin-left: -0.5rem;
+        margin-top: -1rem;
         padding: 0;
     }
 
