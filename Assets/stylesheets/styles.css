@@ -275,6 +275,13 @@ header {
 .aside-img-background7 {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/bitcoin-thief-796x527.jpg");
 }
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: gainsboro; /* old IE */
+    background-color: gainsboro; /* Modern Browsers */
+}
 .tinder {
     position: relative;
     bottom: 4rem;
@@ -516,7 +523,7 @@ ul {
     visibility: hidden;
 }
 .container-grid > section {
-    height: 70rem;
+    height: 80rem;
     width: 100%;
     
 }
@@ -705,7 +712,7 @@ footer {
     }
 
 
-    .sub-wrapper {
-        font-size: 1rem;
+    .container-grid > section > .ul-top-margin > .img-container-{
+        background: black;
     }
 }
