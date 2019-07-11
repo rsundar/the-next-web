@@ -243,6 +243,7 @@ header {
     height: 40rem;
     margin-top: 2rem; 
 }
+
 .latest-fund-container {
     height: 10rem;
     width: 99%;
@@ -451,5 +452,60 @@ footer {
     .aside-section {
         width: 100%;
         margin: 0.5rem 1rem;
+    }
+
+    .latest-new-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 140vw;
+        margin-left:-1%;
+    }
+
+    .sec-style {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .sec-img {
+        width: 15%;
+        height: 15vw;
+    }
+
+    .below-768 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5%;
+    }
+
+    .h4-style {
+        font-size: 3vw;
+        width: 80%;
+    }
+
+    .publisher-info > li {
+        font-size: 2vw;
+    }
+
+    .publisher-info > li:last-child {
+        margin-top: 2%;
+    }
+
+    .latest-fund-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .float {
+        margin: 0;
+        padding: 0;
+    }
+
+    .float  > li{
+        display: block;
+        padding-top: 1rem;
     }
 }
