@@ -196,8 +196,8 @@ header {
 .img-container-6,
 .img-container-7 {
     height: 25rem;
-    width: 80%;
-    margin-left: 3.7rem;
+    width: 100%;
+    margin-left: 0rem;
     background-repeat: no-repeat;
     background-size: contain;
 } 
@@ -710,7 +710,6 @@ footer {
         padding-left: 3.5rem;
         border-left: 1px solid #e2e2e2;
     }
-
 
     .container-grid > section > .ul-top-margin > .img-container-{
         background: black;
