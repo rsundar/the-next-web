@@ -201,6 +201,62 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
 } 
+.my-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.pink-background {
+    background: pink;
+    height: 10rem;
+}
+.section-popular-heading > .a-time {
+    display: inline;
+    position: relative;
+    top: 12rem;
+}
+.a-time > ul > a {
+    color: white;
+}
+.googles-header {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    position: relative;
+    top: 14rem;
+}
+.googles-header > a {
+    color: white;
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+.section-popular-heading {
+    position: absolute;
+    z-index: 3;
+    color: white;
+}
+.section-popular-heading > h5 {
+    position: relative;
+    top: 15rem;
+    font-size: 1.3rem;
+}
+.aside-img-background {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/tinder-hearts.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tinder {
+    position: relative;
+    bottom: 4rem;
+    color: red;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.ul-top-margin > li > h4 > a {
+    color: #868585;
+}
+.ul-top-margin > li > h4 > a:hover {
+    color: black;
+    text-decoration: underline;
+}
 .img-container- {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/athletes-bitcoin-cryptocurrency-salary-368x276.jpg");
 }
@@ -224,6 +280,27 @@ header {
 }
 .img-container-7 {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/cuphead-368x276.png");
+}
+.section-popular-header {
+    bottom: 0;
+    left: 0;
+    padding: 50px;
+    right: 0;
+    z-index: 3;
+}
+.section-popular-section {
+    color: red;
+    font-size: 13px;
+    pointer-events: none;
+}
+.section-popular-title {
+    margin-bottom: 6px;
+}
+.section-popular-byline {
+    color: hsla(0,0%,100%,.6);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
 }
 .most-popular {
     margin-top: 12rem;
@@ -317,8 +394,11 @@ h5 {
     line-height: 1.5;
 }
 .section-latest-section {
+    position: relative;
+    bottom: 2rem;
     color: #f42;
-    font-size: 13px;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .back-image,
 .back-image1,
@@ -369,7 +449,9 @@ h5 {
     font-weight: bold;
     transform: rotate(40deg);
 }
-
+ul {
+    list-style: none;
+}
 .dev-ops > a {
     color: black;
     font-size: 1.8rem;
@@ -401,9 +483,9 @@ h5 {
     visibility: hidden;
 }
 .container-grid > section {
-    height: 60rem;
+    height: 70rem;
     width: 100%;
-    border: 1px solid green;
+    
 }
 .container-grid > section > h2 {
     margin-left: 3rem;
@@ -590,4 +672,7 @@ footer {
     }
 
 
+    .sub-wrapper {
+        font-size: 1rem;
+    }
 }
