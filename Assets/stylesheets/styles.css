@@ -106,6 +106,7 @@ header {
     height: 1.8rem;
     background: #ffffff;
 }
+
 .container {
     display: flex;
     justify-content: flex-start;
@@ -275,12 +276,14 @@ header {
     margin-top: 0;
     font-size: 2.5rem;
     color: #f42;
+    cursor: pointer;
 }
 
 .funding-container {
     display: flex;
     width:90%;
     margin-left: 5.5rem;
+    margin-bottom: 3rem;
 }
 
 .funding-story {
@@ -656,10 +659,12 @@ footer {
         flex-direction: column;
         width: 100%;
         margin-left: 0;
+        margin-bottom: 15vw;
     }
 
     .funding-story {
         width: 90%;
+        margin-bottom: 10vw;
     }
 
     .funding-story4 {
