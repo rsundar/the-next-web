@@ -194,8 +194,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    width: 100%;
-    margin-left: 2rem;
+    width: 95%;
+    margin-left: 4rem;
     height: 45rem;
 }
 .sec-style {
@@ -264,17 +264,126 @@ header {
 }
 
 .latest-fund-container {
-    width: 99%;
+    width: 95%;
     margin-top: 8rem;
     display: flex;
     justify-content: space-between;
 }
 
 .latest-fund-container > h1 {
-    margin-left: 3.5rem;
+    margin-left: 5.5rem;
     margin-top: 0;
     font-size: 2.5rem;
     color: #f42;
+}
+
+.funding-container {
+    display: flex;
+    width:90%;
+    margin-left: 5.5rem;
+}
+
+.funding-story {
+    margin-right: 2.4rem;
+    margin-left: 2rem;
+    flex: 1;
+    position: relative;
+}
+
+.funding-story h2{
+    background-color: #f42;
+    color: white;
+    padding: 0.7rem;
+    font-size: 1.8rem;
+    padding-left: 8.4rem;
+}
+
+.funding-story h2:hover,
+.funding-round:hover,
+.funding-story-logo:hover {
+    cursor: pointer;
+}
+
+.funding-round {
+    padding: 1.3rem;
+    padding-left: 8.4rem;
+    background-color: #feece9;
+    padding-top: 0.7rem;
+    margin-top: -1.5rem;
+}
+
+.funding-round .funding-amount {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.funding-round .funding-series {
+    text-transform: uppercase;
+    color: #777;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    line-height: 0.8;
+}
+
+.funding-story-logo {
+    width: 6rem;
+    position: absolute;
+    top: 25px;
+    left: 11px;
+}
+
+.investment-card {
+    padding: 1.3rem 1.8rem;
+    border-bottom: 1px solid #fcccc5; 
+}
+
+.investment-card-value1 {
+    margin-bottom: 0.4rem;
+}
+
+.investment-icon {
+    margin-right: 1rem;
+}
+
+.investment-card-value1 a,
+.investment-card-value2 a {
+    display: flex;
+    align-items: center;
+}
+
+.investment-achievement {
+    margin-top: 1rem;
+    padding-left: 1.8rem;
+}
+
+.investment-achievement a {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.investment-valuation {
+    color: #888;
+    font-size: 1.3rem;
+}
+  
+.investment-icon {
+    color: #111;
+    margin-right: 1rem;
+}
+  
+.investment-valuation:hover {
+    color: #222;
+}
+  
+.investment-achievement a:hover {
+    color: #555;
+    font-size: 1.2rem;
+}
+  
+.investment-achievement span {
+    color: #bbb;
 }
 
 .container-grid {
@@ -283,7 +392,7 @@ header {
     column-gap: 1rem;
     grid-row-gap: 1rem;
     height: 80rem;
-    margin-top: 5rem;
+    margin-top: 0;
     width: 99%;
 }
 .container-grid > section {
@@ -539,5 +648,20 @@ footer {
     .float  > li{
         display: block;
         padding-top: 1rem;
+    }
+
+    .funding-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .funding-story {
+        width: 90%;
+    }
+
+    .funding-story4 {
+        display: none;
     }
 }
