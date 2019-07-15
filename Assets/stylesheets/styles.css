@@ -233,7 +233,18 @@ header {
     top: 12rem;
 }
 
-.a-time>ul>a {
+.a-time {
+    font-size: 1.0vw;
+    position: relative;
+    top: 30%;
+    width: 100%;
+}
+
+.a-time>span>a {
+    color: white;
+}
+
+.a-time>p>a {
     color: white;
 }
 
@@ -241,12 +252,12 @@ header {
     word-wrap: break-word;
     overflow-wrap: break-word;
     position: relative;
-    top: 14rem;
+    top: 13rem;
 }
 
 .googles-header>a {
     color: white;
-    font-size: 1.0rem;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -334,7 +345,7 @@ hr {
 }
 
 .img-container- {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/athletes-bitcoin-cryptocurrency-salary-368x276.jpg");
+    background: linear-gradient(100deg, rgba(0, 0, 5, .3), rgba(0, 0, 0, 0.9)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/athletes-bitcoin-cryptocurrency-salary-368x276.jpg");
 }
 
 .img-container-1 {
@@ -802,6 +813,30 @@ footer {
         margin-top: 2rem;
         padding-left: 3.5rem;
         border-left: 1px solid #e2e2e2;
+    }
+    .a-time {
+        font-size: 1.0vw;
+        position: relative;
+        top: 30%;
+        width: 100%;
+    }
+    .a-time>span>a {
+        color: white;
+        font-size: 1vw;
+    }
+    .a-time>p>a {
+        color: white;
+    }
+    .googles-header {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        position: relative;
+        top: 13rem;
+    }
+    .googles-header>a {
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 600;
     }
     .container-grid {
         display: grid;
