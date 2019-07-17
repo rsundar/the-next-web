@@ -35,7 +35,7 @@ You can find the demo page [here](https://github.com/rsundar/the-next-web/blob/d
 
 ## Authors
 
-[Rohan Sundar](https://github.com/rsundar)
+[Rohan Sundar](https://github.com/rsundar)   
 [Daniel Larbi Addo](www.github.com/addod19)
 
 ## Contributing 
