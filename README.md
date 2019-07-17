@@ -2,7 +2,7 @@
 
 
 
-A practical demonstration of designing The Next Web. This project is designed to look similar to [thnextweb](https://thenextweb.com/), for the purpose of practical demonstration. The project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
+A practical demonstration of designing The Next Web. This project is designed to look similar to [thenextweb](https://thenextweb.com/), for the purpose of practical demonstration. The project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
 
 
 ## Technologies
