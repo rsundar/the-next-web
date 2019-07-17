@@ -1,5 +1,4 @@
 /*BEGIN base styling*/
-
 :root {
     font-size: 10px;
     box-sizing: border-box;
@@ -17,16 +16,13 @@ body {
 }
 
 nav {
-    width: 99%;
+    width:99%;
     height: 2rem;
+
 }
-
-
 /*END base styling*/
 
-
 /*BEGIN nav-bar-active styling*/
-
 .nav-bar-active {
     width: 100%;
     height: 100%;
@@ -36,9 +32,9 @@ nav {
     margin: 0;
 }
 
-.nav-bar-active>li {
+.nav-bar-active > li {
     display: inline-block;
-    color: hsla(0, 0%, 100%, 0.6);
+    color: hsla(0,0%,100%,0.6);
     padding: 0;
     margin-left: 1rem;
     margin-top: 1px;
@@ -51,27 +47,26 @@ nav {
 
 .site-nav {
     display: flex;
-    padding-left: 0;
+    padding-left:0;
     list-style: none;
     margin-top: 1.25rem;
 }
 
-.site-nav>li {
+.site-nav > li {
     font-size: 1.4rem;
     color: #868585;
     cursor: pointer;
     font-weight: bold;
 }
 
-.site-nav>li:hover {
+.site-nav > li:hover {
     color: #313131;
 }
 
-.site-nav>li+li {
+.site-nav > li + li {
     margin-left: 2rem;
     margin-top: 0;
 }
-
 
 /*.right-nav::before {
     display: hidden;
@@ -81,7 +76,7 @@ nav {
     border-right: 1px solid #e2e2e2;
 }*/
 
-.site-nav>.right-nav {
+.site-nav > .right-nav {
     margin-left: auto;
     padding: 0 1rem;
     transform: scaleX(-1);
@@ -95,11 +90,10 @@ nav {
 main {
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .logo {
-    display: none;
+    display:none;
 }
 
 .li-others {
@@ -125,7 +119,7 @@ header {
 }
 
 .main-section {
-    background: linear-gradient(to bottom right, rgba(245, 75, 23, 0.575), rgba(20, 4, 1, 0.73)), url("../images/Untitled-design-62-796x417.jpg");
+    background: linear-gradient(150deg,rgba(255, 68, 34, 0.616),rgb(0, 0, 0)), url("../images/Untitled-design-62-796x417.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40rem;
@@ -133,50 +127,136 @@ header {
     width: 65%;
 }
 
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
 .aside-section {
     display: flex;
     flex-direction: column;
-    background: pink;
     height: 40rem;
-    margin: 0.5rem 0;
-    width: 35%;
+    margin: 0.5rem 0rem;
+    width: 32.5%;
 }
 
 .first-sec {
-    background: white;
+    background-image: linear-gradient(180deg,rgba(15, 15, 15, 0.63),rgba(0,0,0,0.95)),url("../images/gearbox1200-796x417.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.second-sec {
+    background-image: linear-gradient(180deg,rgba(15, 15, 15, 0.63),rgba(0,0,0,0.95)),url("../images/valveindex-796x397.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 40rem;
     width: 100%;
 }
 
-.second-sec {
-    background: blue;
-    height: 40rem;
+.h1-styling {
+    font-size: 3.5vw;
+    color: whitesmoke;
     width: 100%;
+    font-weight: bolder;
+    margin-top:-1vw;
+    margin-bottom:0;
+    cursor: pointer;
+}
+
+.h2-styling {
+    font-size: 1.7vw;
+    color: whitesmoke;
+    width: 100%;
+    font-weight: bolder;
+    margin-top:-1vw;
+    margin-bottom:0;
+    cursor: pointer;
+}
+
+.p1-styling {
+    font-size:1vw;
+    color:white;
+    letter-spacing: 0.1vw;
+    font-weight: 400
+}
+
+.p2-styling {
+    font-size:1vw;
+    margin-top:0.5vw;
+    color:grey;
 }
 
 .latest-new-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    height: 80rem;
+    align-content: space-between;
+    width: 95%;
+    margin-left: 4rem;
+    height: 45rem;
+}
+.sec-style {
+    height: 20rem;
+    width: 22.5%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
 
-.sec-style {
-    height: 40rem;
-    width: 20%;
-    border: 1px solid black;
-    margin-left: 5rem;
-    margin-bottom: 5rem;
+.sec-img {
+    width:100%;
+    height:70%;
+}
+
+.h4-style {
+    font-size: 1.1vw;
+    font-weight:bolder;
+    margin-top:0;
+    margin-bottom: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.h4-style:hover {
+    color: #f42;
+}
+
+.publisher-info {
+    list-style: none;
+    padding:0;
+    margin-top: 0.5vw;
+}
+
+.publisher-info > li {
+    display: inline-block;
+    font-size: 1vw;
+    color: grey;
+}
+
+.publisher-info > li:first-child {
+    cursor: pointer;
+}
+
+.publisher-info >li:last-child {
+    padding-left: 0.85vw;
 }
 
 .float {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     list-style: none;
 }
 
-.float>li {
+.float > li {
     display: inline-block;
+    font-size: 1.5rem;
     padding-left: 2rem;
+}
+
+.float > li > a {
+    color: #f42;
 }
 
 #modified-margin {
@@ -185,11 +265,152 @@ header {
 }
 
 .latest-fund-container {
-    height: 10rem;
-    width: 99%;
+    width: 95%;
     margin-top: 8rem;
     display: flex;
     justify-content: space-between;
+}
+
+.latest-fund-container > h1 {
+    margin-left: 5.5rem;
+    margin-top: 0;
+    font-size: 2.5rem;
+    color: #f42;
+    cursor: pointer;
+}
+
+.funding-container {
+    display: flex;
+    width:90%;
+    margin-left: 5.5rem;
+    margin-bottom: 3rem;
+}
+
+.funding-story {
+    margin-right: 2.4rem;
+    margin-left: 2rem;
+    flex: 1;
+    position: relative;
+}
+
+.funding-story h2{
+    background-color: #f42;
+    color: white;
+    padding: 0.7rem;
+    font-size: 1.8rem;
+    padding-left: 8.4rem;
+}
+
+.funding-story h2:hover,
+.funding-round:hover,
+.funding-story-logo:hover {
+    cursor: pointer;
+}
+
+.funding-round {
+    padding: 1.3rem;
+    padding-left: 8.4rem;
+    background-color: #feece9;
+    padding-top: 0.7rem;
+    margin-top: -1.5rem;
+}
+
+.funding-round .funding-amount {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.funding-round .funding-series {
+    text-transform: uppercase;
+    color: #777;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    line-height: 0.8;
+}
+
+.funding-story-logo {
+    width: 6rem;
+    position: absolute;
+    top: 25px;
+    left: 11px;
+}
+
+.investment-card {
+    padding: 1.3rem 1.8rem;
+    border-bottom: 1px solid #fcccc5;
+}
+
+.investment-card-value1 {
+    margin-bottom: 0.4rem;
+}
+
+.investment-icon {
+    margin-right: 1rem;
+}
+
+.investment-card-value1 a,
+.investment-card-value2 a {
+    display: flex;
+    align-items: center;
+}
+
+.investment-achievement {
+    margin-top: 1rem;
+    padding-left: 1.8rem;
+}
+
+.investment-achievement a {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.investment-valuation {
+    color: #888;
+    font-size: 1.3rem;
+}
+
+.investment-icon {
+    color: #111;
+    margin-right: 1rem;
+}
+
+.investment-valuation:hover {
+    color: #222;
+}
+
+.investment-achievement a:hover {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.investment-achievement span {
+    color: #bbb;
+}
+
+.cover-img {
+    height: 40rem;
+    width: 99%;
+}
+
+.headline {
+    position: relative;
+    left: 2%;
+    top: 27.5%;
+    width: 100%;
+}
+
+.aside-headline {
+    top: 30%;
+}
+
+.aside-headline2 {
+    top: 42.5%;
+}
+
+.fa-heart {
+    color: red;
 }
 
 .container-grid {
@@ -691,10 +912,6 @@ footer {
     width: 6rem;
 }
 
-.fa-heart {
-    color: red;
-}
-
 .text-inlarge {
     font-size: 1.5rem;
 }
@@ -767,53 +984,194 @@ footer {
 .inside-l-main-wrap>span>a:hover {
     color: white;
 }
-
-
 /*END nav-bar-active styling*/
-
 
 /* mobile version nav bar  */
 
 @media screen and (max-width: 768px) {
     .hide-below-768 {
-        visibility: hidden;
+        display:none;
     }
+
     .fas {
         margin-top: 1rem;
         margin-right: 1rem;
         font-size: 2rem;
     }
+
+    #modifier {
+        font-size: 1vw;
+    }
+
     header {
-        margin-top: -2.8rem;
+        margin-top:-0.8rem;
         height: 4rem;
         width: 99%;
         position: fixed;
         z-index: 2;
-        will-change: height;
+        will-change: width;
     }
+
     .site-nav {
         margin-top: -1px;
     }
+
     .logo {
         display: block;
-        will-change: height;
-        width: 106px;
-        padding: 1rem 1rem;
+        height: 20px;
+        width:90px;
+        padding:1rem 1rem;
         background-color: #f42;
-        background-image: linear-gradient(to bottom right, #c09, #f42);
+        background-image: linear-gradient(to bottom right,#c09,#f42);
     }
+
+    .logo-below-768 {
+        width: 80px;
+        height: 15px;
+        margin-left: 5px;
+    }
+
     .right-nav {
         margin-left: auto;
         padding: 0 1rem;
         transform: scaleX(-1);
         margin-top: 2rem;
     }
+
     .show-less-than-768 {
         display: block;
         margin-top: 2rem;
         padding-left: 3.5rem;
         border-left: 1px solid #e2e2e2;
     }
+
+    .top-heading {
+        display: none;
+    }
+
+    .container {
+        display:flex;
+        flex-direction: column;
+        width:98%;
+        margin-top: 3rem;
+        margin-right: 1rem;
+    }
+
+    .main-section {
+        background: linear-gradient(180deg,rgba(15, 15, 15, 0.63),rgba(0,0,0,0.95)),url("../images/Untitled-design-62-796x417.jpg");
+        background-repeat: no-repeat;
+        height: 20rem;
+        margin: 0.5rem 0.95rem;
+        width: 100%;
+    }
+
+    .headline {
+        position: relative;
+        left: 2%;
+        top: 20%;
+    }
+
+    #modifier1 {
+        top: 40%;
+    }
+
+    #modifier2 {
+        top: 55%;
+    }
+
+    .h1-styling, .h2-styling {
+        font-size: 4vw;
+    }
+
+    .p1-styling,.p2-styling {
+        font-size: 1.5vw;
+    }
+
+    .aside-section {
+        width: 100%;
+        margin: 0.5rem 1rem;
+    }
+
+    .latest-new-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 140vw;
+        margin-left:-1%;
+    }
+
+    .sec-style {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .sec-img {
+        width: 15%;
+        height: 15vw;
+    }
+
+    .below-768 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5%;
+    }
+
+    .h4-style {
+        font-size: 3vw;
+        width: 80%;
+    }
+
+    .publisher-info > li {
+        font-size: 2vw;
+    }
+
+    .publisher-info > li:last-child {
+        margin-top: 2%;
+    }
+
+    .latest-fund-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .latest-fund-container > h1 {
+        margin-left: 1.5rem;
+        margin-top: 0;
+        font-size: 2.5rem;
+        color: #f42;
+    }
+
+    .float {
+        margin-left: -0.5rem;
+        margin-top: -1rem;
+        padding: 0;
+    }
+
+    .float  > li{
+        display: block;
+        padding-top: 1rem;
+    }
+
+    .funding-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15vw;
+    }
+
+    .funding-story {
+        width: 90%;
+        margin-bottom: 10vw;
+    }
+
+    .funding-story4 {
+        display: none;
+    }
+
     .a-time {
         font-size: 1.0vw;
         position: relative;
