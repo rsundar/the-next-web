@@ -90,6 +90,7 @@ nav {
 main {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
 
 .logo {
@@ -197,7 +198,8 @@ header {
     align-content: space-between;
     width: 95%;
     margin-left: 4rem;
-    height: 45rem;
+    height: auto;
+    margin-bottom: 5%;
 }
 .sec-style {
     height: 20rem;
@@ -218,6 +220,7 @@ header {
     margin-bottom: 0;
     width: 100%;
     cursor: pointer;
+    color: #131313;
 }
 
 .h4-style:hover {
@@ -266,7 +269,7 @@ header {
 
 .latest-fund-container {
     width: 95%;
-    margin-top: 8rem;
+    margin-top: auto;
     display: flex;
     justify-content: space-between;
 }
