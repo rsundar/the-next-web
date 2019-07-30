@@ -58,14 +58,21 @@ nav {
     font-weight: bold;
 }
 
-.site-nav > li:hover {
-    color: #313131;
+.publisher-info > li {
+    display: inline-block;
+    font-size: 1vw;
+    color: grey;
 }
 
 .site-nav > li + li {
     margin-left: 2rem;
     margin-top: 0;
 }
+
+.site-nav > li:hover {
+    color: #313131;
+}
+
 
 /*.right-nav::before {
     display: hidden;
@@ -230,12 +237,6 @@ header {
     list-style: none;
     padding:0;
     margin-top: 0.5vw;
-}
-
-.publisher-info > li {
-    display: inline-block;
-    font-size: 1vw;
-    color: grey;
 }
 
 .publisher-info > li:first-child {
