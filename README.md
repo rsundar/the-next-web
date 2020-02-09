@@ -48,5 +48,6 @@ You can find the demo page [here](https://github.com/rsundar/the-next-web/blob/d
 5.  Push to the branch (git push origin feature/[chosen name])
 6.  Create a new pull request
 
+## License
 
-
+This project is [MIT](https://www.github.com/rsundar/the-next-web/tree/master/License.txt) licensed.
