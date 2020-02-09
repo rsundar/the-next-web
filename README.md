@@ -50,4 +50,4 @@ You can find the demo page [here](https://github.com/rsundar/the-next-web/blob/d
 
 ## License
 
-This project is [MIT](https://www.github.com/rsundar/the-next-web/tree/master/License.txt) licensed.
+This project is [MIT](https://www.github.com/rsundar/the-next-web/tree/master/LICENSE) licensed.
